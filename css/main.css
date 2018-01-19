@@ -265,9 +265,21 @@ img {
 .carousel .button-right {
   right: 0; }
 
-.artist img {
-  height: 820px;
-  opacity: 0.4; }
+.artist {
+  position: relative; }
+  .artist img {
+    height: 820px;
+    opacity: 0.4; }
+  .artist .info {
+    position: absolute;
+    bottom: 50px;
+    margin: 50px 50px 0 50px; }
+    .artist .info p {
+      margin-top: 0; }
+    .artist .info h1 {
+      margin-bottom: 0px;
+      font-size: 35px;
+      margin-left: -15px; }
 
 .auction-small {
   height: 380;
@@ -300,6 +312,9 @@ img {
 
 .filter {
   display: none; }
+  .filter ul li {
+    list-style-type: none;
+    margin-left: -30px; }
 
 .intro-image img {
   height: 430px; }

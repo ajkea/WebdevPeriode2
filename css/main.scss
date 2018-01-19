@@ -153,9 +153,23 @@ img{
 }
 
 .artist{
+  position: relative;
   img{
     height: 820px;
     opacity: 0.4;
+  }
+  .info{
+    position: absolute;
+    bottom: 50px;
+    margin: 50px 50px 0 50px;
+    p{
+      margin-top: 0;
+    }
+    h1{
+      margin-bottom: 0px;
+      font-size: 35px;
+      margin-left: -15px;
+    }
   }
 }
 
@@ -198,7 +212,13 @@ img{
 }
 
 .filter{
-  display: none;
+  display: none;  
+  ul{
+    li{
+      list-style-type: none;
+      margin-left: -30px;
+    }
+  }
 }
 
 .intro-image{
@@ -245,4 +265,8 @@ img{
   .wide{
     width: 100%;
   }
+}
+
+.filter{
+
 }
