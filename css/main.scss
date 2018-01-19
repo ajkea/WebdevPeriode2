@@ -155,12 +155,51 @@ img{
 .artist{
   img{
     height: 820px;
+    opacity: 0.4;
   }
 }
 
 .auction-small{
-  height: 400px;
+  height: 380;
+  padding-bottom: 20px;
   img{
     height: 250px;
   }
+  p,a{
+    margin-left: 20px;
+  }
+  p.det-descr{
+    font-size: 15px;
+    color: #0a1e75;
+    line-height: 0;
+  }
+  p.name{
+    font-size: 20px;
+    line-height: 0;
+    font-weight: bold;
+  }
+  p.price{
+    font-size: 18px;
+    line-height: 12px;
+  }
+  p.countdown{
+    font-size: 14px;
+    color: #545353;
+  }
+  .button{
+    width: 120px;
+    font-size: 12px;
+    color: #0a1e75;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-left: 10px;
+  }
+
 }
+
+// <p class="det-descr">1979, Salvador Dali</p>
+// <p class="rel name">Dance of Time III</p>
+// <p class="rel price">€ 8.900</p>
+// <div class="inline">
+//     <p class="rel countdown">25d 14u 44m</p>
+//     <a href="#" class="right">VISIT AUCTION ></a>

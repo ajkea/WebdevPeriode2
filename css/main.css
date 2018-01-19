@@ -266,11 +266,36 @@ img {
   right: 0; }
 
 .artist img {
-  height: 820px; }
+  height: 820px;
+  opacity: 0.4; }
 
 .auction-small {
-  height: 400px; }
+  height: 380;
+  padding-bottom: 20px; }
   .auction-small img {
     height: 250px; }
+  .auction-small p, .auction-small a {
+    margin-left: 20px; }
+  .auction-small p.det-descr {
+    font-size: 15px;
+    color: #0a1e75;
+    line-height: 0; }
+  .auction-small p.name {
+    font-size: 20px;
+    line-height: 0;
+    font-weight: bold; }
+  .auction-small p.price {
+    font-size: 18px;
+    line-height: 12px; }
+  .auction-small p.countdown {
+    font-size: 14px;
+    color: #545353; }
+  .auction-small .button {
+    width: 120px;
+    font-size: 12px;
+    color: #0a1e75;
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+    margin-left: 10px; }
 
 /*# sourceMappingURL=main.css.map */
