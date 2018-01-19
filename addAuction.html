@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/app.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112776769-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-112776769-1');
+    </script>
+
+    <title>Landoretti - New auction</title>
+</head>
+<body>
+    <div class="container">
+        <a href="#" class="breadcrumbs">
+            Home > Jasper Poppe > My auctions > New Auction 
+        </a>
+        <div class="row">
+            <h1>Add a new auction</h1>
+        </div>
+        <div class="row">
+            <form class="form" action="post">
+                <div class="row">
+                    <div class="col-6">
+                        <select name="style" id="style">
+                            <option value="Abstract">Abstract</option>
+                            <option value="African American">African American</option>
+                            <option value="Asian Contemporary">Asian Contemporary</option>
+                            <option value="conceptual">Conceptual</option>
+                            <option value="Contemporary">Contemporary</option>
+                            <option value="Emerging Artists">Emerging Artists</option>
+                            <option value="Figurative">Figurative</option>
+                            <option value="Middle Eastern Contemporary">Middle Eastern Contemporary</option>
+                            <option value="Minimalism">Minimalism</option>
+                            <option value="Modern">Modern</option>
+                            <option value="Pop">Pop</option>
+                            <option value="Urban">Urban</option>
+                            <option value="Vintage Photographs">Vintage Photographs</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-6">
+                        <p class="title">Auction title</p>
+                        <input type="text" name="title" id="title" placeholder="Auction title">
+                    </div>
+                    <div class="col-3">
+                        <p class="title">Year</p>
+                        <input type="text" name="year" id="year" placeholder="X X X X">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <p class="title">Width</p>
+                        <input type="text" name="width" id="width" placeholder="X X X X">
+                    </div>
+                    <div class="col-3">
+                        <p class="title">Height</p>
+                        <input type="text" name="Height" id="Height" placeholder="X X X X">
+                    </div>
+                    <div class="col-3">
+                        <div class="inline"><p class="title">Depth </p><p class="note">(optional)</p></div>
+                        <input type="text" name="Depth" id="Depth" placeholder="X X X X">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="title">Description</p>
+                        <textarea name="description" id="description" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="title">Condition</p>
+                        <textarea name="condition" id="condition" rows="4"></textarea>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="title">Origin</p>
+                        <input type="text" name="origin" id="origin">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-9">
+                        <p class="title">Photos</p>
+                        <p>Please upload one picture with the signature of the artwork and one picture of the artwork you can upload up to 3 pictures with a maximum of 10MB each.</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <button class="btn">UPLOAD IMAGE OF THE ARTWORK</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn">UPLOAD IMAGE OF THE SIGNATURE</button>
+                    </div>
+                    <div class="col-3">
+                        <button class="btn">OPTIONAL IMAGE</button>
+                    </div>
+                </div>
+                <div class="row">
+                    <h2>Pricing</h2>
+                    <div class="col-3">
+                        <p class="title">Minimum estimate price</p>
+                        <input type="text" name="minprice" id="minprice" value="€" placeholder="X X X X">
+                    </div>
+                    <div class="col-3">
+                        <p class="title">Maximum estimate price</p>
+                        <input type="text" name="maxprice" id="maxprice" value="€" placeholder="X X X X">
+                    </div>
+                    <div class="col-3">
+                        <div class="inline"><p class="title">Buyout price </p><p class="note">(optional)</p></div>
+                        <input type="text" name="buyoutprice" id="buyoutprice" value="€" placeholder="X X X X">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <p class="title">End date</p>
+                        <input type="text" name="enddate" id="endate" placeholder="DD/MM/YY">
+                    </div>
+                    <div class="col-9">
+                        <p class="title">Attention</p>
+                        <p class="note">You can not change the information after adding this auction.</p>
+                        <p class="note">If you're not certain about the information of your artwork please ask for help</p>
+                        <p class="note">We will answer your question as soon as possible</p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3 inline">
+                        <input type="checkbox" name="terms" id="terms"><p>I Agree to <a href="#">The Terms & Conditions</a></p>
+                    </div>
+                </div>
+                <div class="row center">
+                    <div class="col-3">
+                        <button class="button">ADD AUCTION</button>
+                        <a href="#">ASK A QUESTION ></a>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

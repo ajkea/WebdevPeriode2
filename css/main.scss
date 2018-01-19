@@ -1,0 +1,166 @@
+@import 'header','footer','fonts','form';
+
+body{
+  background-color: #ffffff;
+}
+
+.hero-image{
+  img{
+    max-width: 100%;
+    max-height: 900px;
+    position: relative;
+  }
+  .mySlides{
+    margin-top: -12px;
+  }
+  .hero-tekst{
+    position: absolute;
+    background-color: rgba($color: #0120a6, $alpha: .8);
+    padding: 36px 50px;
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    p{
+    color: white;
+    text-align: left;
+    font-size: 15px;
+    }
+  }
+
+.hero-image.pages{
+  top: 0px;
+  position: absolute;
+  img{
+    max-width: 1500px;
+    height: 536;
+  }
+  .heroauction{
+    position: absolute;
+    background-color: rgba($color: #0120a6, $alpha: .8);
+    padding: 36px 50px;
+    bottom: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+  }
+}
+
+  #circle{
+    position: absolute;
+    left: -12px;
+    top: -12px;
+    width: initial;
+  }
+}
+
+.bold{
+  font-weight: bold;
+}
+
+#search::placeholder {
+  color: #1d1d1b;
+  // font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-style: italic;
+}
+#search{
+  background-color: #ffffff;
+  border: 1px solid #bebebd;
+  border-radius: 5px;
+  padding-left: 22px;
+  height: 30px;
+}
+
+.caroussel{
+  .button{
+    width: 40px;
+    height: 70px;
+    background-color: #1d1d1b;
+    opacity: .2;
+    position: absolute;
+    top: 50%;
+  }
+}
+
+.cl-inline{
+  clear: both;
+}
+
+.fl-right{
+  float: right;
+}
+
+.fl-left{
+  float: left;
+}
+
+img{
+  width: 100%;
+  object-fit: cover;
+}
+
+.icon{
+  width: initial;
+}
+
+.inline{
+  display: flex;
+}
+
+.original{
+  img{
+  width: initial;
+  }
+}
+
+.spotlight{
+  background: #f3f3f3;
+  padding-bottom: 100px;
+  padding-top: 50px;
+  img{
+    height: 170px;
+    margin: 2px;
+  }
+  .extra{
+    img{
+      height: 350px;
+    }
+  }
+}
+
+.carousel{
+  button{
+    top: 50%;
+    position: absolute;
+    height: 70px;
+    width: 40px;
+    background: rgba(0,0,0,.2);
+    border: none;
+    color: white;
+    font-size: 50px;
+
+  }
+  .button-left{
+    left: 0;
+  }
+  .button-right{
+    right: 0;
+  }
+
+}
+
+.artist{
+  img{
+    height: 820px;
+  }
+}
+
+.auction-small{
+  height: 400px;
+  img{
+    height: 250px;
+  }
+}
