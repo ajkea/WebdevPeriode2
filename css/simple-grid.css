@@ -184,6 +184,10 @@ p {
   display: none;
 }
 
+.hidden-lg{
+  display: block;
+}
+
 .center-sm{
   text-align: center;
 }
@@ -249,6 +253,10 @@ p {
 
   .hidden-sm {
     display: block;
+  }
+
+  .hidden-lg{
+    display: none;
   }
   .center-sm{
     text-align: left;

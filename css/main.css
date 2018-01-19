@@ -352,4 +352,11 @@ img {
   .blue-box .wide {
     width: 100%; }
 
+.code {
+  background: #545353;
+  color: white;
+  border: 3px solid gray;
+  width: 100%;
+  padding: 20px; }
+
 /*# sourceMappingURL=main.css.map */

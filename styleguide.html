@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Styleguide</title>
+    <link rel="stylesheet" href="css/simple-grid.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Styleguide</h1>
+        <h2>Columns</h2>
+        <div class="row">
+            <div class="col-1 col-1-sm">
+                col-1
+            </div>
+            <div class="col-2 col-2-sm">
+                col-2
+            </div>
+            <div class="col-3 col-3-sm">
+                col-3
+            </div>
+            <div class="col-4 col-4-sm">
+                col-4
+            </div>
+            <div class="col-2 col-2-sm">
+                col-2
+            </div>
+        </div>
+        <div class="row">
+            <p>Gebruik kolommen door een div te plaatsen met class row, daarin kan je de kolommen plaatsen, standaard zijn er 12 kolommen. Voor mobiel gebruik je col-*-sm.</p>
+            <div class="code">
+                &lt;div class="row"&gt;<br />
+                &lt;div class="col-1 col-1-sm"&gt;<br />
+                    col-1<br />
+                &lt;/div&gt;<br />
+                &lt;div class="col-2 col-2-sm"&gt;<br />
+                    col-2<br />
+                &lt;/div&gt;<br />
+                &lt;div class="col-3 col-3-sm"&gt;<br />
+                    col-3<br />
+                &lt;/div&gt;<br />
+                &lt;div class="col-4 col-4-sm"&gt;<br />
+                    col-4<br />
+                &lt;/div&gt;<br />
+                &lt;div class="col-2 col-2-sm"&gt;<br />
+                    col-2<br />
+                &lt;/div&gt;<br />
+            &lt;/div&gt;
+            </div>
+        </div>
+        <div class="row">
+            <h2>Align</h2>
+            <div class="left">
+                <p>Align left</p>
+            </div>
+            <div class="center">
+                <p>Align center</p>
+            </div>
+            <div class="right">
+                <p>Align right</p>
+            </div>
+            <p>Je kan items makkelijk links,rechts of in het midden plaatsen door deze klassen toe te voegen aan je div.</p>
+            <div class="code">
+                &lt;div class="left"&gt;<br />
+                &lt;p&gt;Align left&lt;/p&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class="center"&gt;<br />
+                &lt;p&gt;Align center&lt;/p&gt;<br />
+            &lt;/div&gt;<br />
+            &lt;div class="right"&gt;<br />
+                &lt;p&gt;Align right&lt;/p&gt;<br />
+            &lt;/div&gt;
+            </div>
+        </div>
+        <h2>Artikel layout</h2>
+        <div class="col-3 col-6-sm auction-small">
+            <img src="img/details/related2.png" alt="picture of dance of time">
+            <p class="det-descr">1979, Salvador Dali</p>
+            <p class="rel name">Dance of Time III</p>
+            <p class="rel price">€ 8.900</p>
+            <div class="inline">
+                <p class="rel countdown">25d 14u 44m</p>
+                <button class="right button">VISIT AUCTION ></button>
+            </div>
+        </div>
+        <p>Een item plaatsen is erg makkelijk, je past de waardes aan aan het artikel en de layout wordt voorzien, je kan uiteraard de kolommen aanpassen.</p>
+        <div class="code">
+            &lt;div class="col-3 col-6-sm auction-small"&gt;<br />
+            &lt;img src="img/src" alt=""&gt;<br />
+            &lt;p class="det-descr"&gt;1979, Salvador Dali&lt;/p&gt;<br />
+            &lt;p class="rel name"&gt;Dance of Time III&lt;/p&gt;<br />
+            &lt;p class="rel price"&gt;€ 8.900&lt;/p&gt;<br />
+            &lt;div class="inline"&gt;<br />
+                &lt;p class="rel countdown"&gt;25d 14u 44m&lt;/p&gt;<br />
+                &lt;button class="right button"&gt;VISIT AUCTION &gt;&lt;/button&gt;<br />
+            &lt;/div&gt;<br />
+        &lt;/div&gt;
+        </div>
+    </div>
+</body>
+</html>
