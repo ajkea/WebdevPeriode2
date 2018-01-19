@@ -298,4 +298,43 @@ img {
     border: 1px solid #e5e5e5;
     margin-left: 10px; }
 
+.filter {
+  display: none; }
+
+.intro-image img {
+  height: 430px; }
+
+.blue-box {
+  position: absolute;
+  right: 0;
+  top: 220px;
+  width: 315px;
+  height: 330px;
+  background-color: rgba(1, 32, 166, 0.65); }
+
+.blue-box {
+  line-height: 22px; }
+  .blue-box h2 {
+    color: white;
+    margin: 30px;
+    font-weight: lighter; }
+  .blue-box p {
+    color: white;
+    font-size: 15px;
+    margin: 30px; }
+  .blue-box .price {
+    font-size: 18px;
+    margin: 30px; }
+  .blue-box button {
+    font-size: 20px;
+    color: #01a6a0;
+    background: white;
+    border: 0;
+    height: 80px;
+    bottom: 0;
+    margin: 30px;
+    text-align: left; }
+  .blue-box .wide {
+    width: 100%; }
+
 /*# sourceMappingURL=main.css.map */
